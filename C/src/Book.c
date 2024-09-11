@@ -3,7 +3,7 @@
 #include <Book.h>
 #include <BookUtils.h>
 
-const char *filePath = "./c programming/src/data/books.txt";
+const char *filePath = "./C/src/data/books.txt";
 /// @brief Adds a book to the library
 /// @param book The book object to be added
 /// @param name The name of the book

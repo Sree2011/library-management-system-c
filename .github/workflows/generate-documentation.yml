@@ -1,0 +1,31 @@
+name: Generate Doxygen Documentation
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Doxygen
+        run: |
+          sudo apt-get update
+          sudo apt-get install doxygen graphviz
+
+      - name: Generate Doxygen Documentation
+        run: |
+          doxygen Doxyfile
+
+          - name: Commit Javadoc
+          run: |
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add docs
+            git commit -m "Automated Doxygen update"
+            git push
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
