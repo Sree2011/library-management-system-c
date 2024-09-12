@@ -1,4 +1,7 @@
-// bookutils.h
+///@file BookUtils.h
+///@page BookUtils
+
+///This is the header file for the utility functions
 #ifndef BOOKUTILS_H
 #define BOOKUTILS_H
 
