@@ -1,5 +1,5 @@
-///@file BookUtils.h
-///@page BookUtils
+/// @file BookUtils.h
+/// @page BookUtils
 
 ///This is the header file for the utility functions
 #ifndef BOOKUTILS_H
