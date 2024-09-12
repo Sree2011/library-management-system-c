@@ -1,7 +1,7 @@
 /// @file BookUtils.h
 /// @page BookUtils
+/// @brief This is the header file for the utility functions
 
-///This is the header file for the utility functions
 #ifndef BOOKUTILS_H
 #define BOOKUTILS_H
 
