@@ -84,6 +84,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8c.html#ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>)</td></tr>
 <tr class="memdesc:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the books from the library file.  <a href="BookUtils_8c.html#ad4de68dcf1b84ce126a3fc2b659728f9">More...</a><br /></td></tr>
 <tr class="separator:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2a8376b8d24596cf521979a719e978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8c.html#a1f2a8376b8d24596cf521979a719e978">updateIssuedStatus</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>, const char *bookName, const char *newStatus)</td></tr>
+<tr class="memdesc:a1f2a8376b8d24596cf521979a719e978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the issued status of a book and rewrites the library file.  <a href="BookUtils_8c.html#a1f2a8376b8d24596cf521979a719e978">More...</a><br /></td></tr>
+<tr class="separator:a1f2a8376b8d24596cf521979a719e978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad4de68dcf1b84ce126a3fc2b659728f9"></a>
@@ -106,6 +109,50 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filePath</td><td>File path of the library file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1f2a8376b8d24596cf521979a719e978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2a8376b8d24596cf521979a719e978">&#9670;&nbsp;</a></span>updateIssuedStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateIssuedStatus </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>bookName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>newStatus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the issued status of a book and rewrites the library file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>File path of the library file </td></tr>
+    <tr><td class="paramname">bookName</td><td>The name of the book to update </td></tr>
+    <tr><td class="paramname">newStatus</td><td>The new issued status </td></tr>
   </table>
   </dd>
 </dl>

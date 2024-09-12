@@ -16,6 +16,10 @@
 
 <para>Reads the books from the library file. </para>
 </listitem>
+            <listitem><para>void <link linkend="_BookUtils_8c_1a1f2a8376b8d24596cf521979a719e978">updateIssuedStatus</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>, const char *bookName, const char *newStatus)</para>
+
+<para>Updates the issued status of a book and rewrites the library file. </para>
+</listitem>
         </itemizedlist>
 </simplesect>
 <section>
@@ -43,6 +47,49 @@ Parameters                    </title>
                                 <entry>filePath</entry>
                                 <entry>
 <para>File path of the library file </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_BookUtils_8c_1a1f2a8376b8d24596cf521979a719e978"/>    <section>
+    <title>updateIssuedStatus()</title>
+<indexterm><primary>updateIssuedStatus</primary><secondary>BookUtils.c</secondary></indexterm>
+<indexterm><primary>BookUtils.c</primary><secondary>updateIssuedStatus</secondary></indexterm>
+<para><computeroutput>void updateIssuedStatus (const char * filePath, const char * bookName, const char * newStatus)</computeroutput></para><para>
+
+<para>Updates the issued status of a book and rewrites the library file. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>filePath</entry>
+                                <entry>
+<para>File path of the library file </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>bookName</entry>
+                                <entry>
+<para>The name of the book to update </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>newStatus</entry>
+                                <entry>
+<para>The new issued status </para>
 </entry>
                             </row>
                         </tbody>

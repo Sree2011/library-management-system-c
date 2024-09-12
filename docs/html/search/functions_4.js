@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writebooktofile_25',['writeBookToFile',['../BookUtils_8c.html#a8087eb600963c502f186b8e80d603136',1,'BookUtils.c']]]
+  ['updateissuedstatus_26',['updateIssuedStatus',['../BookUtils_8c.html#a1f2a8376b8d24596cf521979a719e978',1,'BookUtils.c']]]
 ];
