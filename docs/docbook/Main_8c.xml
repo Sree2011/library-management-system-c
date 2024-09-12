@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_Main_8c" xml:lang="en-US">
+<title>C/src/Main.c File Reference</title>
+<indexterm><primary>C/src/Main.c</primary></indexterm>
+<programlisting>#include &lt;Book.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_Main_8c_1acdef7a1fd863a6d3770c1268cb06add3"/>void <emphasis role="strong">main</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

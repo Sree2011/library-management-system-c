@@ -12,6 +12,10 @@
     <xi:include href="BookUtils.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <chapter>
+    <title>module</title>
+    <xi:include href="main.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
     <title>Class Documentation</title>
     <xi:include href="structBook.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
@@ -21,6 +25,7 @@
     <xi:include href="Book_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="BookUtils_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="BookUtils_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Main_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <index/>
 </book>

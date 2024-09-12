@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writebooktofile_17',['writeBookToFile',['../BookUtils_8c.html#a8087eb600963c502f186b8e80d603136',1,'writeBookToFile(const char *filePath, const Book *book):&#160;BookUtils.c'],['../BookUtils_8h.html#a8087eb600963c502f186b8e80d603136',1,'writeBookToFile(const char *filePath, const Book *book):&#160;BookUtils.c']]]
+  ['volume_18',['volume',['../structBook.html#a80e2d98b15fde7a243ab5179839f6e18',1,'Book']]]
 ];
