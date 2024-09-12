@@ -35,11 +35,11 @@ void get_all_books(){
 /// @brief Issues a book and updates its status to Yes
 /// @param name The name of the book to be issued
 void issue_book(const char* name){
-    
+    updateIssuedStatus(filePath,name,"Yes");
 }
 
 /// @brief Returns a book and updates its issued status to No
 /// @param name The name of the book to be returned
 void return_book(const char* name){
-
+    updateIssuedStatus(filePath,name,"No");
 }
