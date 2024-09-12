@@ -6,7 +6,10 @@
 #include <Book.h>
 #include <BookUtils.h>
 
+/// @brief Filepath of the library file
 const char *filePath = "./C/src/data/books.txt";
+
+
 /// @brief Adds a book to the library
 /// @param book The book object to be added
 /// @param name The name of the book
@@ -35,6 +38,8 @@ void issue_book(const char* name){
     
 }
 
+/// @brief Returns a book and updates its issued status to No
+/// @param name The name of the book to be returned
 void return_book(const char* name){
 
 }
