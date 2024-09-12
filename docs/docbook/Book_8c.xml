@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_Book_8c" xml:lang="en-US">
+<title>C/src/Book.c File Reference</title>
+<indexterm><primary>C/src/Book.c</primary></indexterm>
+<programlisting>#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;Book.h&gt;
+#include &lt;BookUtils.h&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_Book_8c_1a3ed25b11fdbd5f297e3f492f5bfbb644">add_book</link> (<link linkend="_structBook">Book</link> *book, const char *name, const char *author, const char *volume)</para>
+
+<para>Adds a book to the library. </para>
+</listitem>
+            <listitem><para>void <link linkend="_Book_8c_1a5eb8c365256406e8181a06390bd048a7">get_all_books</link> ()</para>
+
+<para>Lists all the books in the library. </para>
+</listitem>
+            <listitem><para>void <link linkend="_Book_8c_1a1f4d9c4ee0d96e2f4022c1a1d208fe9e">issue_book</link> (const char *name)</para>
+
+<para>Issues a book and updates its status to Yes. </para>
+</listitem>
+            <listitem><para>void <link linkend="_Book_8c_1a6909d33c9a0dabe89dc7e15c61101ad8">return_book</link> (const char *name)</para>
+
+<para>Returns a book to the library. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_Book_8c_1a47db48370a4060e89aea7976d4ae7907"/>const char * <emphasis role="strong">filePath</emphasis> = &quot;./C/src/data/books.txt&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_Book_8c_1a3ed25b11fdbd5f297e3f492f5bfbb644"/>    <section>
+    <title>add_book()</title>
+<indexterm><primary>add_book</primary><secondary>Book.c</secondary></indexterm>
+<indexterm><primary>Book.c</primary><secondary>add_book</secondary></indexterm>
+<para><computeroutput>void add_book (<link linkend="_structBook">Book</link> * book, const char * name, const char * author, const char * volume)</computeroutput></para><para>
+
+<para>Adds a book to the library. </para>
+</para>
+
+<para>Adds a new book to the library.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>book</entry>
+                                <entry>
+<para>The book object to be added </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>The name of the book </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>author</entry>
+                                <entry>
+<para>The author of the book </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>volume</entry>
+                                <entry>
+<para>The volume number of the book </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_Book_8c_1a5eb8c365256406e8181a06390bd048a7"/>    <section>
+    <title>get_all_books()</title>
+<indexterm><primary>get_all_books</primary><secondary>Book.c</secondary></indexterm>
+<indexterm><primary>Book.c</primary><secondary>get_all_books</secondary></indexterm>
+<para><computeroutput>void get_all_books ( )</computeroutput></para><para>
+
+<para>Lists all the books in the library. </para>
+</para>
+
+<para>Retrieves all books in the library. </para>
+    </section><anchor xml:id="_Book_8c_1a1f4d9c4ee0d96e2f4022c1a1d208fe9e"/>    <section>
+    <title>issue_book()</title>
+<indexterm><primary>issue_book</primary><secondary>Book.c</secondary></indexterm>
+<indexterm><primary>Book.c</primary><secondary>issue_book</secondary></indexterm>
+<para><computeroutput>void issue_book (const char * name)</computeroutput></para><para>
+
+<para>Issues a book and updates its status to Yes. </para>
+</para>
+
+<para>Issues a book to a member.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>The name of the book to be issued </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_Book_8c_1a6909d33c9a0dabe89dc7e15c61101ad8"/>    <section>
+    <title>return_book()</title>
+<indexterm><primary>return_book</primary><secondary>Book.c</secondary></indexterm>
+<indexterm><primary>Book.c</primary><secondary>return_book</secondary></indexterm>
+<para><computeroutput>void return_book (const char * name)</computeroutput></para><para>
+
+<para>Returns a book to the library. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>Name of the book to be returned. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

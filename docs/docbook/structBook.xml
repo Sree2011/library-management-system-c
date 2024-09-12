@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structBook" xml:lang="en-US">
+<title>Book Struct Reference</title>
+<indexterm><primary>Book</primary></indexterm>
+<para>
+
+<para>Structure to represent a book. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Book.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structBook_1a29069ac3217a4d5634e836bd9b25c498"/>char <link linkend="_structBook_1a29069ac3217a4d5634e836bd9b25c498">name</link> [100]</para>
+
+<para>Name of the book. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_structBook_1aff8d505a29fbeee13a9b2e42c41f73f5"/>char <link linkend="_structBook_1aff8d505a29fbeee13a9b2e42c41f73f5">author</link> [100]</para>
+
+<para>Author of the book. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_structBook_1a80e2d98b15fde7a243ab5179839f6e18"/>char <link linkend="_structBook_1a80e2d98b15fde7a243ab5179839f6e18">volume</link> [100]</para>
+
+<para>Volume of the book. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_structBook_1abe89f6783b802852b42f476a06104281"/>char <link linkend="_structBook_1abe89f6783b802852b42f476a06104281">issued</link> [100]</para>
+
+<para>Issued status of the book. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Structure to represent a book. </para>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C/src/<link linkend="_Book_8h">Book.h</link></section>
+</section>

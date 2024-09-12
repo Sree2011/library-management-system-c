@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_BookUtils_8c" xml:lang="en-US">
+<title>C/src/BookUtils.c File Reference</title>
+<indexterm><primary>C/src/BookUtils.c</primary></indexterm>
+<programlisting>#include &lt;stdio.h&gt;
+#include &lt;Book.h&gt;
+#include &lt;BookUtils.h&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_BookUtils_8c_1a8087eb600963c502f186b8e80d603136">writeBookToFile</link> (const char *filePath, const <link linkend="_structBook">Book</link> *book)</para>
+
+<para>Adds a book to the library file. </para>
+</listitem>
+            <listitem><para>void <link linkend="_BookUtils_8c_1ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</link> (const char *filePath)</para>
+
+<para>Reads the books from the library file. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_BookUtils_8c_1ad4de68dcf1b84ce126a3fc2b659728f9"/>    <section>
+    <title>readBooksFromFile()</title>
+<indexterm><primary>readBooksFromFile</primary><secondary>BookUtils.c</secondary></indexterm>
+<indexterm><primary>BookUtils.c</primary><secondary>readBooksFromFile</secondary></indexterm>
+<para><computeroutput>void readBooksFromFile (const char * filePath)</computeroutput></para><para>
+
+<para>Reads the books from the library file. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>filePath</entry>
+                                <entry>
+<para>File path of the library file </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_BookUtils_8c_1a8087eb600963c502f186b8e80d603136"/>    <section>
+    <title>writeBookToFile()</title>
+<indexterm><primary>writeBookToFile</primary><secondary>BookUtils.c</secondary></indexterm>
+<indexterm><primary>BookUtils.c</primary><secondary>writeBookToFile</secondary></indexterm>
+<para><computeroutput>void writeBookToFile (const char * filePath, const <link linkend="_structBook">Book</link> * book)</computeroutput></para><para>
+
+<para>Adds a book to the library file. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>filePath</entry>
+                                <entry>
+<para>File path of the library file </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>book</entry>
+                                <entry>
+<para>The book object to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>
