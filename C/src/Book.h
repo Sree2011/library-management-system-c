@@ -1,10 +1,11 @@
 /// @file Book.h
-///@page Book.h
+/// @page Book.h
 /// @brief This file contains the definitions and functions for managing books in the library system.
 
 #ifndef BOOK_H
 #define BOOK_H
 
+/// @brief A class defined for a book
 typedef struct {
     char name[100];   ///< Name of the book.
     char author[100]; ///< Author of the book.

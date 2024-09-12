@@ -1,5 +1,6 @@
 ///@file BookUtils.c
 ///@page BookUtils
+///@brief This file contains the utility functions for book management
 
 #include <stdio.h>
 #include <Book.h>
