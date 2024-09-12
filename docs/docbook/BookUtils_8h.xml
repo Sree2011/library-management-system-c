@@ -1,22 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_BookUtils_8c" xml:lang="en-US">
-<title>C/src/BookUtils.c File Reference</title>
-<indexterm><primary>C/src/BookUtils.c</primary></indexterm>
-<programlisting>#include &lt;stdio.h&gt;
-#include &lt;Book.h&gt;
-#include &lt;BookUtils.h&gt;
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_BookUtils_8h" xml:lang="en-US">
+<title>C/src/BookUtils.h File Reference</title>
+<indexterm><primary>C/src/BookUtils.h</primary></indexterm>
+<programlisting>#include &quot;book.h&quot;
 </programlisting><simplesect>
     <title>Functions    </title>
         <itemizedlist>
-            <listitem><para>void <link linkend="_BookUtils_8c_1a8087eb600963c502f186b8e80d603136">writeBookToFile</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>, const <link linkend="_structBook">Book</link> *book)</para>
+            <listitem><para>void <link linkend="_BookUtils_8h_1a8087eb600963c502f186b8e80d603136">writeBookToFile</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>, const <link linkend="_structBook">Book</link> *book)</para>
 
-<para>Adds a book to the library file. </para>
+<para>This is the header file for the utility functions. </para>
 </listitem>
-            <listitem><para>void <link linkend="_BookUtils_8c_1ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>)</para>
+            <listitem><para>void <link linkend="_BookUtils_8h_1ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>)</para>
 
 <para>Reads the books from the library file. </para>
 </listitem>
-            <listitem><para>void <link linkend="_BookUtils_8c_1a1f2a8376b8d24596cf521979a719e978">updateIssuedStatus</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>, const char *bookName, const char *newStatus)</para>
+            <listitem><para>void <link linkend="_BookUtils_8h_1a1f2a8376b8d24596cf521979a719e978">updateIssuedStatus</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>, const char *bookName, const char *newStatus)</para>
 
 <para>Updates the issued status of a book and rewrites the library file. </para>
 </listitem>
@@ -24,10 +22,10 @@
 </simplesect>
 <section>
 <title>Function Documentation</title>
-<anchor xml:id="_BookUtils_8c_1ad4de68dcf1b84ce126a3fc2b659728f9"/>    <section>
+<anchor xml:id="_BookUtils_8h_1ad4de68dcf1b84ce126a3fc2b659728f9"/>    <section>
     <title>readBooksFromFile()</title>
-<indexterm><primary>readBooksFromFile</primary><secondary>BookUtils.c</secondary></indexterm>
-<indexterm><primary>BookUtils.c</primary><secondary>readBooksFromFile</secondary></indexterm>
+<indexterm><primary>readBooksFromFile</primary><secondary>BookUtils.h</secondary></indexterm>
+<indexterm><primary>BookUtils.h</primary><secondary>readBooksFromFile</secondary></indexterm>
 <para><computeroutput>void readBooksFromFile (const char * filePath)</computeroutput></para><para>
 
 <para>Reads the books from the library file. </para>
@@ -55,10 +53,10 @@ Parameters                    </title>
                     </para>
                 </formalpara>
                 </para>
-    </section><anchor xml:id="_BookUtils_8c_1a1f2a8376b8d24596cf521979a719e978"/>    <section>
+    </section><anchor xml:id="_BookUtils_8h_1a1f2a8376b8d24596cf521979a719e978"/>    <section>
     <title>updateIssuedStatus()</title>
-<indexterm><primary>updateIssuedStatus</primary><secondary>BookUtils.c</secondary></indexterm>
-<indexterm><primary>BookUtils.c</primary><secondary>updateIssuedStatus</secondary></indexterm>
+<indexterm><primary>updateIssuedStatus</primary><secondary>BookUtils.h</secondary></indexterm>
+<indexterm><primary>BookUtils.h</primary><secondary>updateIssuedStatus</secondary></indexterm>
 <para><computeroutput>void updateIssuedStatus (const char * filePath, const char * bookName, const char * newStatus)</computeroutput></para><para>
 
 <para>Updates the issued status of a book and rewrites the library file. </para>
@@ -98,13 +96,13 @@ Parameters                    </title>
                     </para>
                 </formalpara>
                 </para>
-    </section><anchor xml:id="_BookUtils_8c_1a8087eb600963c502f186b8e80d603136"/>    <section>
+    </section><anchor xml:id="_BookUtils_8h_1a8087eb600963c502f186b8e80d603136"/>    <section>
     <title>writeBookToFile()</title>
-<indexterm><primary>writeBookToFile</primary><secondary>BookUtils.c</secondary></indexterm>
-<indexterm><primary>BookUtils.c</primary><secondary>writeBookToFile</secondary></indexterm>
+<indexterm><primary>writeBookToFile</primary><secondary>BookUtils.h</secondary></indexterm>
+<indexterm><primary>BookUtils.h</primary><secondary>writeBookToFile</secondary></indexterm>
 <para><computeroutput>void writeBookToFile (const char * filePath, const <link linkend="_structBook">Book</link> * book)</computeroutput></para><para>
 
-<para>Adds a book to the library file. </para>
+<para>This is the header file for the utility functions. </para>
 </para>
 
 <para>This is the header file for the utility functions.</para>

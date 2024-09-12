@@ -13,7 +13,7 @@
 
 <para>Adds a book to the library. </para>
 </listitem>
-            <listitem><para>void <link linkend="_Book_8c_1a5eb8c365256406e8181a06390bd048a7">get_all_books</link> ()</para>
+            <listitem><para><anchor xml:id="_Book_8c_1a5eb8c365256406e8181a06390bd048a7"/>void <link linkend="_Book_8c_1a5eb8c365256406e8181a06390bd048a7">get_all_books</link> ()</para>
 
 <para>Lists all the books in the library. </para>
 </listitem>
@@ -46,8 +46,6 @@
 
 <para>Adds a book to the library. </para>
 </para>
-
-<para>Adds a new book to the library.</para>
 
 <para>
                 <formalpara>
@@ -89,16 +87,6 @@ Parameters                    </title>
                     </para>
                 </formalpara>
                 </para>
-    </section><anchor xml:id="_Book_8c_1a5eb8c365256406e8181a06390bd048a7"/>    <section>
-    <title>get_all_books()</title>
-<indexterm><primary>get_all_books</primary><secondary>Book.c</secondary></indexterm>
-<indexterm><primary>Book.c</primary><secondary>get_all_books</secondary></indexterm>
-<para><computeroutput>void get_all_books ( )</computeroutput></para><para>
-
-<para>Lists all the books in the library. </para>
-</para>
-
-<para>Retrieves all books in the library. </para>
     </section><anchor xml:id="_Book_8c_1a1f4d9c4ee0d96e2f4022c1a1d208fe9e"/>    <section>
     <title>issue_book()</title>
 <indexterm><primary>issue_book</primary><secondary>Book.c</secondary></indexterm>
@@ -107,8 +95,6 @@ Parameters                    </title>
 
 <para>Issues a book and updates its status to Yes. </para>
 </para>
-
-<para>Issues a book to a member.</para>
 
 <para>
                 <formalpara>
@@ -140,8 +126,6 @@ Parameters                    </title>
 
 <para>Returns a book and updates its issued status to No. </para>
 </para>
-
-<para>Returns a book to the library.</para>
 
 <para>
                 <formalpara>

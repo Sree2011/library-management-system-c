@@ -76,15 +76,16 @@ $(function() {
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="Book_8h_source.html">Book.h</a>&gt;</code><br />
-<code>#include &lt;BookUtils.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="BookUtils_8h_source.html">BookUtils.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3ed25b11fdbd5f297e3f492f5bfbb644"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Book_8c.html#a3ed25b11fdbd5f297e3f492f5bfbb644">add_book</a> (<a class="el" href="structBook.html">Book</a> *book, const char *name, const char *author, const char *volume)</td></tr>
 <tr class="memdesc:a3ed25b11fdbd5f297e3f492f5bfbb644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a book to the library.  <a href="Book_8c.html#a3ed25b11fdbd5f297e3f492f5bfbb644">More...</a><br /></td></tr>
 <tr class="separator:a3ed25b11fdbd5f297e3f492f5bfbb644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eb8c365256406e8181a06390bd048a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Book_8c.html#a5eb8c365256406e8181a06390bd048a7">get_all_books</a> ()</td></tr>
-<tr class="memdesc:a5eb8c365256406e8181a06390bd048a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists all the books in the library.  <a href="Book_8c.html#a5eb8c365256406e8181a06390bd048a7">More...</a><br /></td></tr>
+<tr class="memitem:a5eb8c365256406e8181a06390bd048a7"><td class="memItemLeft" align="right" valign="top"><a id="a5eb8c365256406e8181a06390bd048a7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Book_8c.html#a5eb8c365256406e8181a06390bd048a7">get_all_books</a> ()</td></tr>
+<tr class="memdesc:a5eb8c365256406e8181a06390bd048a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists all the books in the library. <br /></td></tr>
 <tr class="separator:a5eb8c365256406e8181a06390bd048a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f4d9c4ee0d96e2f4022c1a1d208fe9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Book_8c.html#a1f4d9c4ee0d96e2f4022c1a1d208fe9e">issue_book</a> (const char *name)</td></tr>
 <tr class="memdesc:a1f4d9c4ee0d96e2f4022c1a1d208fe9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Issues a book and updates its status to Yes.  <a href="Book_8c.html#a1f4d9c4ee0d96e2f4022c1a1d208fe9e">More...</a><br /></td></tr>
@@ -140,7 +141,6 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><div class="memdoc">
 
 <p>Adds a book to the library. </p>
-<p>Adds a new book to the library.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">book</td><td>The book object to be added </td></tr>
@@ -150,26 +150,6 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a5eb8c365256406e8181a06390bd048a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5eb8c365256406e8181a06390bd048a7">&#9670;&nbsp;</a></span>get_all_books()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void get_all_books </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Lists all the books in the library. </p>
-<p>Retrieves all books in the library. </p>
 
 </div>
 </div>
@@ -190,7 +170,6 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><div class="memdoc">
 
 <p>Issues a book and updates its status to Yes. </p>
-<p>Issues a book to a member.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the book to be issued </td></tr>
@@ -217,7 +196,6 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><div class="memdoc">
 
 <p>Returns a book and updates its issued status to No. </p>
-<p>Returns a book to the library.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the book to be returned </td></tr>

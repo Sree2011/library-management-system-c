@@ -20,6 +20,7 @@
     <xi:include href="Book_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="Book_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="BookUtils_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="BookUtils_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <index/>
 </book>
