@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name_10',['name',['../structBook.html#a29069ac3217a4d5634e836bd9b25c498',1,'Book']]]
+  ['issue_5fbook_9',['issue_book',['../Book_8c.html#a1f4d9c4ee0d96e2f4022c1a1d208fe9e',1,'issue_book(const char *name):&#160;Book.c'],['../Book_8h.html#a1f4d9c4ee0d96e2f4022c1a1d208fe9e',1,'issue_book(const char *name):&#160;Book.c']]],
+  ['issued_10',['issued',['../structBook.html#abe89f6783b802852b42f476a06104281',1,'Book']]]
 ];

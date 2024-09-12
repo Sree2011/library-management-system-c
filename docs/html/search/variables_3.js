@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['volume_28',['volume',['../structBook.html#a80e2d98b15fde7a243ab5179839f6e18',1,'Book']]]
+  ['name_29',['name',['../structBook.html#a29069ac3217a4d5634e836bd9b25c498',1,'Book']]]
 ];

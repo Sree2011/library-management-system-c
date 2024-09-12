@@ -23,14 +23,16 @@
 </listitem>
             <listitem><para>void <link linkend="_Book_8c_1a6909d33c9a0dabe89dc7e15c61101ad8">return_book</link> (const char *name)</para>
 
-<para>Returns a book to the library. </para>
+<para>Returns a book and updates its issued status to No. </para>
 </listitem>
         </itemizedlist>
 </simplesect>
 <simplesect>
     <title>Variables    </title>
         <itemizedlist>
-            <listitem><para><anchor xml:id="_Book_8c_1a47db48370a4060e89aea7976d4ae7907"/>const char * <emphasis role="strong">filePath</emphasis> = &quot;./C/src/data/books.txt&quot;</para>
+            <listitem><para><anchor xml:id="_Book_8c_1a47db48370a4060e89aea7976d4ae7907"/>const char * <link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link> = &quot;./C/src/data/books.txt&quot;</para>
+
+<para>Filepath of the library file. </para>
 </listitem>
         </itemizedlist>
 </simplesect>
@@ -136,8 +138,10 @@ Parameters                    </title>
 <indexterm><primary>Book.c</primary><secondary>return_book</secondary></indexterm>
 <para><computeroutput>void return_book (const char * name)</computeroutput></para><para>
 
-<para>Returns a book to the library. </para>
+<para>Returns a book and updates its issued status to No. </para>
 </para>
+
+<para>Returns a book to the library.</para>
 
 <para>
                 <formalpara>
@@ -152,7 +156,7 @@ Parameters                    </title>
                             <row>
                                 <entry>name</entry>
                                 <entry>
-<para>Name of the book to be returned. </para>
+<para>The name of the book to be returned </para>
 </entry>
                             </row>
                         </tbody>

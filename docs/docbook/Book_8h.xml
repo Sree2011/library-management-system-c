@@ -220,7 +220,30 @@ Parameters                    </title>
                             <row>
                                 <entry>name</entry>
                                 <entry>
-<para>Name of the book to be returned. </para>
+<para>Name of the book to be returned.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                Returns a book to the library.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>The name of the book to be returned </para>
 </entry>
                             </row>
                         </tbody>

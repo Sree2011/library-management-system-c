@@ -90,13 +90,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1f4d9c4ee0d96e2f4022c1a1d208fe9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Issues a book and updates its status to Yes.  <a href="Book_8c.html#a1f4d9c4ee0d96e2f4022c1a1d208fe9e">More...</a><br /></td></tr>
 <tr class="separator:a1f4d9c4ee0d96e2f4022c1a1d208fe9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6909d33c9a0dabe89dc7e15c61101ad8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Book_8c.html#a6909d33c9a0dabe89dc7e15c61101ad8">return_book</a> (const char *name)</td></tr>
-<tr class="memdesc:a6909d33c9a0dabe89dc7e15c61101ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a book to the library.  <a href="Book_8c.html#a6909d33c9a0dabe89dc7e15c61101ad8">More...</a><br /></td></tr>
+<tr class="memdesc:a6909d33c9a0dabe89dc7e15c61101ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a book and updates its issued status to No.  <a href="Book_8c.html#a6909d33c9a0dabe89dc7e15c61101ad8">More...</a><br /></td></tr>
 <tr class="separator:a6909d33c9a0dabe89dc7e15c61101ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a47db48370a4060e89aea7976d4ae7907"><td class="memItemLeft" align="right" valign="top"><a id="a47db48370a4060e89aea7976d4ae7907"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><b>filePath</b> = &quot;./C/src/data/books.txt&quot;</td></tr>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a> = &quot;./C/src/data/books.txt&quot;</td></tr>
+<tr class="memdesc:a47db48370a4060e89aea7976d4ae7907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filepath of the library file. <br /></td></tr>
 <tr class="separator:a47db48370a4060e89aea7976d4ae7907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -215,10 +216,11 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><b>filePath</b> 
       </table>
 </div><div class="memdoc">
 
-<p>Returns a book to the library. </p>
+<p>Returns a book and updates its issued status to No. </p>
+<p>Returns a book to the library.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>Name of the book to be returned. </td></tr>
+    <tr><td class="paramname">name</td><td>The name of the book to be returned </td></tr>
   </table>
   </dd>
 </dl>
