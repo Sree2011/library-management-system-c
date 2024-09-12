@@ -8,7 +8,7 @@
         <itemizedlist>
             <listitem><para>void <link linkend="_BookUtils_8h_1a8087eb600963c502f186b8e80d603136">writeBookToFile</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>, const <link linkend="_structBook">Book</link> *book)</para>
 
-<para>This is the header file for the utility functions. </para>
+<para>Adds a book to the library file. </para>
 </listitem>
             <listitem><para>void <link linkend="_BookUtils_8h_1ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</link> (const char *<link linkend="_Book_8c_1a47db48370a4060e89aea7976d4ae7907">filePath</link>)</para>
 
@@ -102,10 +102,8 @@ Parameters                    </title>
 <indexterm><primary>BookUtils.h</primary><secondary>writeBookToFile</secondary></indexterm>
 <para><computeroutput>void writeBookToFile (const char * filePath, const <link linkend="_structBook">Book</link> * book)</computeroutput></para><para>
 
-<para>This is the header file for the utility functions. </para>
+<para>Adds a book to the library file. </para>
 </para>
-
-<para>This is the header file for the utility functions.</para>
 
 <para>
                 <formalpara>
