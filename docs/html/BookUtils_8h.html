@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Library Book Management: C/src/BookUtils.c File Reference</title>
+<title>Library Book Management: C/src/BookUtils.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,23 +69,23 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">BookUtils.c File Reference</div>  </div>
+<div class="title">BookUtils.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="Book_8h_source.html">Book.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="BookUtils_8h_source.html">BookUtils.h</a>&gt;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;book.h&quot;</code><br />
+</div>
+<p><a href="BookUtils_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8087eb600963c502f186b8e80d603136"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8c.html#a8087eb600963c502f186b8e80d603136">writeBookToFile</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>, const <a class="el" href="structBook.html">Book</a> *book)</td></tr>
-<tr class="memdesc:a8087eb600963c502f186b8e80d603136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a book to the library file.  <a href="BookUtils_8c.html#a8087eb600963c502f186b8e80d603136">More...</a><br /></td></tr>
+<tr class="memitem:a8087eb600963c502f186b8e80d603136"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8h.html#a8087eb600963c502f186b8e80d603136">writeBookToFile</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>, const <a class="el" href="structBook.html">Book</a> *book)</td></tr>
+<tr class="memdesc:a8087eb600963c502f186b8e80d603136"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the header file for the utility functions.  <a href="BookUtils_8h.html#a8087eb600963c502f186b8e80d603136">More...</a><br /></td></tr>
 <tr class="separator:a8087eb600963c502f186b8e80d603136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8c.html#ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>)</td></tr>
-<tr class="memdesc:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the books from the library file.  <a href="BookUtils_8c.html#ad4de68dcf1b84ce126a3fc2b659728f9">More...</a><br /></td></tr>
+<tr class="memitem:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8h.html#ad4de68dcf1b84ce126a3fc2b659728f9">readBooksFromFile</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>)</td></tr>
+<tr class="memdesc:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the books from the library file.  <a href="BookUtils_8h.html#ad4de68dcf1b84ce126a3fc2b659728f9">More...</a><br /></td></tr>
 <tr class="separator:ad4de68dcf1b84ce126a3fc2b659728f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2a8376b8d24596cf521979a719e978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8c.html#a1f2a8376b8d24596cf521979a719e978">updateIssuedStatus</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>, const char *bookName, const char *newStatus)</td></tr>
-<tr class="memdesc:a1f2a8376b8d24596cf521979a719e978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the issued status of a book and rewrites the library file.  <a href="BookUtils_8c.html#a1f2a8376b8d24596cf521979a719e978">More...</a><br /></td></tr>
+<tr class="memitem:a1f2a8376b8d24596cf521979a719e978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BookUtils_8h.html#a1f2a8376b8d24596cf521979a719e978">updateIssuedStatus</a> (const char *<a class="el" href="Book_8c.html#a47db48370a4060e89aea7976d4ae7907">filePath</a>, const char *bookName, const char *newStatus)</td></tr>
+<tr class="memdesc:a1f2a8376b8d24596cf521979a719e978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the issued status of a book and rewrites the library file.  <a href="BookUtils_8h.html#a1f2a8376b8d24596cf521979a719e978">More...</a><br /></td></tr>
 <tr class="separator:a1f2a8376b8d24596cf521979a719e978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -185,7 +185,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a book to the library file. </p>
+<p>This is the header file for the utility functions. </p>
 <p>This is the header file for the utility functions.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

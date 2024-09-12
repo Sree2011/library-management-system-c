@@ -2,14 +2,6 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structBook" xml:lang="en-US">
 <title>Book Struct Reference</title>
 <indexterm><primary>Book</primary></indexterm>
-<para>
-
-<para>Structure to represent a book. </para>
- 
-</para>
-<para>
-<computeroutput>#include &lt;Book.h&gt;</computeroutput>
-</para>
 <simplesect>
     <title>Public Attributes    </title>
         <itemizedlist>
@@ -31,11 +23,6 @@
 </listitem>
         </itemizedlist>
 </simplesect>
-<section>
-<title>Detailed Description</title>
-
-<para>Structure to represent a book. </para>
 <para>
 The documentation for this struct was generated from the following file:</para>
 C/src/<link linkend="_Book_8h">Book.h</link></section>
-</section>
